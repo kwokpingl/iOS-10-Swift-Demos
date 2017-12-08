@@ -28,6 +28,7 @@
 		BF3BF1551FD909E20080851A /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3BF1541FD909E20080851A /* FontExtension.swift */; };
 		BF3BF1581FD948DC0080851A /* MiraculousChristmas.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF3BF14E1FD84D430080851A /* MiraculousChristmas.ttf */; };
 		BF3BF15B1FD998B80080851A /* InfiniteScrollVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3BF15A1FD998B80080851A /* InfiniteScrollVC.swift */; };
+		BFFAACB11FDA86BE00EBEF1F /* Others.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFFAACAF1FDA86BE00EBEF1F /* Others.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		BF3BF1501FD855670080851A /* Old London.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Old London.ttf"; sourceTree = "<group>"; };
 		BF3BF1541FD909E20080851A /* FontExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FontExtension.swift; path = Extension/FontExtension.swift; sourceTree = "<group>"; };
 		BF3BF15A1FD998B80080851A /* InfiniteScrollVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InfiniteScrollVC.swift; path = C/InfiniteScrollVC.swift; sourceTree = "<group>"; };
+		BFFAACB01FDA86BE00EBEF1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Others.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				BF033CE61FD1A6C100DA1845 /* C */,
 				BF033CD41FD1A3EA00DA1845 /* AppDelegate.swift */,
 				BF033CD81FD1A3EA00DA1845 /* Main.storyboard */,
+				BFFAACAF1FDA86BE00EBEF1F /* Others.storyboard */,
 				BF033CEB1FD2E42700DA1845 /* String.storyboard */,
 				BF3BF14F1FD855670080851A /* Old London Alternate.ttf */,
 				BF3BF1501FD855670080851A /* Old London.ttf */,
@@ -265,6 +268,7 @@
 				BF3BF1521FD85C2C0080851A /* Old London.ttf in Resources */,
 				BF033CDF1FD1A3EA00DA1845 /* LaunchScreen.storyboard in Resources */,
 				BF033CDC1FD1A3EA00DA1845 /* Assets.xcassets in Resources */,
+				BFFAACB11FDA86BE00EBEF1F /* Others.storyboard in Resources */,
 				BF033CDA1FD1A3EA00DA1845 /* Main.storyboard in Resources */,
 				BF033CED1FD2E42700DA1845 /* String.storyboard in Resources */,
 			);
@@ -319,6 +323,14 @@
 				BF033CEC1FD2E42700DA1845 /* Base */,
 			);
 			name = String.storyboard;
+			sourceTree = "<group>";
+		};
+		BFFAACAF1FDA86BE00EBEF1F /* Others.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFFAACB01FDA86BE00EBEF1F /* Base */,
+			);
+			name = Others.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -39,7 +39,7 @@ struct StoryboardInfos {
     // OTHERs STORYBOARD
     struct OthersStoryboard {
         static let id = "Others"
-        static let sceneIDs = [""]
+        static let sceneIDs = ["Maximum Int"]
     }
     
     ///////////////////////////////

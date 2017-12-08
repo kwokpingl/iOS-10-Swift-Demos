@@ -12,7 +12,7 @@ import UIKit
 extension UIStoryboard {
     
     enum StoryBoardIDEnum {
-        case StringStoryBoard, WWDC
+        case StringStoryBoard, WWDC, OthersStoryBoard
     }
     
     class func getStoryboardWithName(_ name:String) -> UIStoryboard? {
