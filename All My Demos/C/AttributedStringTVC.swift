@@ -9,7 +9,24 @@
 import Foundation
 import UIKit
 
-class AttributedStringTVC: UITableViewController {
+
+protocol test {
+    var label:UILabel {get set}
+}
+
+class AttributedStringTVC: UITableViewController, test {
+    
+    @IBOutlet weak var mylabel : UILabel!
+    
+    var label: UILabel {
+        get {
+            return mylabel
+        }
+        set {
+            
+        }
+    }
+    
     var attributedStrings = [NSAttributedString]()
     var normalStrings = [String]()
     
