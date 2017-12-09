@@ -42,19 +42,23 @@ class InfiniteScrollV: UIScrollView, UIScrollViewDelegate {
     
     func recenteredIfNeeded() {
         // get CenterOffSetX
+        let currentOffsetX = contentOffset.x
+        
         let centerOffsetX = (contentSize.width - bounds.width).divided(by: 2.0)
         
-        let distanceFromCenter = fabs(centerOffsetX - contentOffset.x)
+        let distanceFromCenter = fabs(centerOffsetX - currentOffsetX)
         
         let deltaDistance = contentSize.width * 0.25
         
         if  distanceFromCenter > deltaDistance {
-            setContentOffset(CGPoint(x:centerOffsetX ,y: contentOffset.y), animated: false)
+            
+            contentOffset = CGPoint(x:centerOffsetX ,y: contentOffset.y)
             
             // Move content when neccessary
             for building in visibleBuildings {
                 var center = building.center
-                center.x += (centerOffsetX - contentOffset.x)
+                print("OLD CENTER: \(center)")
+                center.x += (centerOffsetX - currentOffsetX)
                 building.center = center
             }
         }
@@ -139,4 +143,6 @@ class InfiniteScrollV: UIScrollView, UIScrollViewDelegate {
         
         return newFrame.minX
     }
+    
+    
 }

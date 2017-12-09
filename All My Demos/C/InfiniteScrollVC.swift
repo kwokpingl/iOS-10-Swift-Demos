@@ -20,7 +20,7 @@ class InfiniteScrollVC: UIViewController {
         
         let originY = UIApplication.shared.statusBarFrame.height + (navigationController?.navigationBar.frame.height ?? 0) + 5
         
-        infiniteScrollView.frame = CGRect(x: 10, y: originY, width: view.frame.width - 20, height: view.frame.height - originY)
+        infiniteScrollView.frame = CGRect(x: 10, y: originY, width: view.frame.width, height: view.frame.height - originY)
         
         view.addSubview(infiniteScrollView)
     }
