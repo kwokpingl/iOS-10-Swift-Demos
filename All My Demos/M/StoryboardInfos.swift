@@ -15,9 +15,10 @@ struct StoryboardInfos {
         case String = "String"
         case Animation = "Animation"
         case Others = "Others"
+        case WWDC = "WWDC"
     }
     
-    static let topics = ["String", "Animation", "Others"]
+    static let topics = ["String", "Animation", "Others", "WWDC"]
     
     // STRING STORYBOARD
     struct StringStoryboard {
@@ -38,8 +39,22 @@ struct StoryboardInfos {
     
     // OTHERs STORYBOARD
     struct OthersStoryboard {
+        
+        enum Scenes: String {
+            case NumericalLimits = "Numerical Limits"
+        }
+        
         static let id = "Others"
-        static let sceneIDs = ["Maximum Int"]
+        static let sceneIDs = ["Numerical Limits"]
+    }
+    
+    struct WWDCStoryboard {
+        enum Scenes: String {
+            case WWDC_2011_InfiniteScrollView = "WWDC_2011 InfiniteScrollView"
+        }
+        
+        static let id = "WWDC"
+        static let sceneIDs = ["WWDC_2011 InfiniteScrollView"]
     }
     
     ///////////////////////////////
@@ -58,6 +73,8 @@ struct StoryboardInfos {
                 finalList[OthersStoryboard.id] = OthersStoryboard.sceneIDs
             case .String:
                 finalList[StringStoryboard.id] = StringStoryboard.sceneIDs
+            case .WWDC:
+                finalList[WWDCStoryboard.id] = WWDCStoryboard.sceneIDs
             }
         }
         return finalList
