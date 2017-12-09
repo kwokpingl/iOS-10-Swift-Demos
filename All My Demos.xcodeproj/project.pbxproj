@@ -22,18 +22,17 @@
 		BF3BF13F1FD53C5F0080851A /* RandomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3BF13E1FD53C5F0080851A /* RandomVC.swift */; };
 		BF3BF1411FD5B35A0080851A /* StoryboardInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3BF1401FD5B35A0080851A /* StoryboardInfos.swift */; };
 		BF3BF1431FD5BCD30080851A /* AttributedStringTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3BF1421FD5BCD30080851A /* AttributedStringTVC.swift */; };
-		BF3BF14D1FD8331A0080851A /* FontDescriptorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3BF14C1FD8331A0080851A /* FontDescriptorExtension.swift */; };
 		BF3BF1511FD85C2C0080851A /* Old London Alternate.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF3BF14F1FD855670080851A /* Old London Alternate.ttf */; };
 		BF3BF1521FD85C2C0080851A /* Old London.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF3BF1501FD855670080851A /* Old London.ttf */; };
 		BF3BF1551FD909E20080851A /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3BF1541FD909E20080851A /* FontExtension.swift */; };
 		BF3BF1581FD948DC0080851A /* MiraculousChristmas.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF3BF14E1FD84D430080851A /* MiraculousChristmas.ttf */; };
 		BF3BF15B1FD998B80080851A /* InfiniteScrollVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3BF15A1FD998B80080851A /* InfiniteScrollVC.swift */; };
 		BFE47E711FDA9295000284FA /* NumericalTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE47E701FDA9295000284FA /* NumericalTVC.swift */; };
-		BFE47E771FDADC62000284FA /* HardwareChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE47E761FDADC62000284FA /* HardwareChecker.swift */; };
 		BFE47E7A1FDAE12E000284FA /* Checker.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE47E791FDAE12E000284FA /* Checker.m */; };
 		BFE47E7D1FDAE8F7000284FA /* WWDC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE47E7B1FDAE8F7000284FA /* WWDC.storyboard */; };
 		BFE47E801FDAF2D4000284FA /* InfiniteScorllV.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE47E7F1FDAF2D4000284FA /* InfiniteScorllV.swift */; };
 		BFE47E821FDB7E15000284FA /* InfiniteScrollSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE47E811FDB7E15000284FA /* InfiniteScrollSubView.swift */; };
+		BFE47E851FDC3005000284FA /* FontDescriptorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE47E841FDC3005000284FA /* FontDescriptorExtension.swift */; };
 		BFFAACB11FDA86BE00EBEF1F /* Others.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFFAACAF1FDA86BE00EBEF1F /* Others.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -55,7 +54,6 @@
 		BF3BF13E1FD53C5F0080851A /* RandomVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomVC.swift; sourceTree = "<group>"; };
 		BF3BF1401FD5B35A0080851A /* StoryboardInfos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoryboardInfos.swift; path = M/StoryboardInfos.swift; sourceTree = "<group>"; };
 		BF3BF1421FD5BCD30080851A /* AttributedStringTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AttributedStringTVC.swift; path = C/AttributedStringTVC.swift; sourceTree = "<group>"; };
-		BF3BF14C1FD8331A0080851A /* FontDescriptorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontDescriptorExtension.swift; sourceTree = "<group>"; };
 		BF3BF14E1FD84D430080851A /* MiraculousChristmas.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MiraculousChristmas.ttf; sourceTree = "<group>"; };
 		BF3BF14F1FD855670080851A /* Old London Alternate.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Old London Alternate.ttf"; sourceTree = "<group>"; };
 		BF3BF1501FD855670080851A /* Old London.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Old London.ttf"; sourceTree = "<group>"; };
@@ -63,12 +61,12 @@
 		BF3BF15A1FD998B80080851A /* InfiniteScrollVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InfiniteScrollVC.swift; path = C/InfiniteScrollVC.swift; sourceTree = "<group>"; };
 		BFE47E701FDA9295000284FA /* NumericalTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumericalTVC.swift; path = C/Others/NumericalTVC.swift; sourceTree = "<group>"; };
 		BFE47E721FDADB49000284FA /* All My Demos-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "All My Demos-Bridging-Header.h"; sourceTree = "<group>"; };
-		BFE47E761FDADC62000284FA /* HardwareChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HardwareChecker.swift; sourceTree = "<group>"; };
-		BFE47E781FDAE079000284FA /* Checker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Checker.h; sourceTree = "<group>"; };
 		BFE47E791FDAE12E000284FA /* Checker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Checker.m; path = M/Checker.m; sourceTree = "<group>"; };
 		BFE47E7C1FDAE8F7000284FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/WWDC.storyboard; sourceTree = "<group>"; };
 		BFE47E7F1FDAF2D4000284FA /* InfiniteScorllV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InfiniteScorllV.swift; path = "V/WWDC 2011/InfiniteScorllV.swift"; sourceTree = "<group>"; };
 		BFE47E811FDB7E15000284FA /* InfiniteScrollSubView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InfiniteScrollSubView.swift; path = "V/WWDC 2011/InfiniteScrollSubView.swift"; sourceTree = "<group>"; };
+		BFE47E831FDC3005000284FA /* Checker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Checker.h; path = Extension/Checker.h; sourceTree = "<group>"; };
+		BFE47E841FDC3005000284FA /* FontDescriptorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FontDescriptorExtension.swift; path = Extension/FontDescriptorExtension.swift; sourceTree = "<group>"; };
 		BFFAACB01FDA86BE00EBEF1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Others.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,10 +137,8 @@
 			children = (
 				BF3BF1341FD43A5E0080851A /* CellIDs.swift */,
 				BF3BF1401FD5B35A0080851A /* StoryboardInfos.swift */,
-				BFE47E781FDAE079000284FA /* Checker.h */,
 				BFE47E791FDAE12E000284FA /* Checker.m */,
 				BFE47E721FDADB49000284FA /* All My Demos-Bridging-Header.h */,
-				BFE47E761FDADC62000284FA /* HardwareChecker.swift */,
 			);
 			name = M;
 			sourceTree = "<group>";
@@ -164,9 +160,10 @@
 		BF033CF01FD2FDB700DA1845 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				BFE47E831FDC3005000284FA /* Checker.h */,
+				BFE47E841FDC3005000284FA /* FontDescriptorExtension.swift */,
 				BF033CF11FD2FDE100DA1845 /* StoryboardExtension.swift */,
 				BF3BF1361FD45E370080851A /* ArrayExtension.swift */,
-				BF3BF14C1FD8331A0080851A /* FontDescriptorExtension.swift */,
 				BF3BF1541FD909E20080851A /* FontExtension.swift */,
 			);
 			name = Extension;
@@ -314,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF3BF1351FD43A5E0080851A /* CellIDs.swift in Sources */,
+				BFE47E851FDC3005000284FA /* FontDescriptorExtension.swift in Sources */,
 				BF033CEA1FD1A70800DA1845 /* GrandTVC.swift in Sources */,
 				BF3BF13F1FD53C5F0080851A /* RandomVC.swift in Sources */,
 				BFE47E7A1FDAE12E000284FA /* Checker.m in Sources */,
@@ -324,14 +322,12 @@
 				BF3BF1431FD5BCD30080851A /* AttributedStringTVC.swift in Sources */,
 				BFE47E711FDA9295000284FA /* NumericalTVC.swift in Sources */,
 				BF3BF1371FD45E370080851A /* ArrayExtension.swift in Sources */,
-				BF3BF14D1FD8331A0080851A /* FontDescriptorExtension.swift in Sources */,
 				BF033CF41FD3CC4600DA1845 /* GrandTVHeader.swift in Sources */,
 				BF033CD51FD1A3EA00DA1845 /* AppDelegate.swift in Sources */,
 				BF3BF1391FD4679D0080851A /* ArrowButtons.swift in Sources */,
 				BF3BF1551FD909E20080851A /* FontExtension.swift in Sources */,
 				BF3BF13B1FD535530080851A /* Random.swift in Sources */,
 				BF3BF15B1FD998B80080851A /* InfiniteScrollVC.swift in Sources */,
-				BFE47E771FDADC62000284FA /* HardwareChecker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
